@@ -18,3 +18,9 @@ npm install -g json-server
 ```
 
 ### Чтобы одновременно запустить сервер и реакт приложение устанавливаем [concurrently](https://www.npmjs.com/package/concurrently)
+
+### После этого обновляем package.json, добавляем скрипт который обьеденит запуск реакт приложения и json-servera
+
+```
+"start": "concurrently \"npm run dev\" \"npm run server\"",
+```
