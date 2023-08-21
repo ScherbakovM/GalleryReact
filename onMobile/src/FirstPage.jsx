@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import axios from 'axios';
 
 const server = 'http://localhost:4200/animals';
@@ -17,13 +16,13 @@ export const FirstPage = () => {
     }, []);
 
     const [photoUrl, setPhotoUrl] = useState('');
-    
+
     const listItems = animalsDb.length ? animalsDb.map((animal) => (
-        <motion.div
+        <div
             key={animal.id}
             className="container">
             <img key={animal.id} className="photo" src={animal.url}></img>
-        </motion.div>
+        </div>
     )) :
         <div className="containerEmpty">
             Пока еще никто не загружал картинки &#128565;
