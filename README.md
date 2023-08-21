@@ -1,7 +1,7 @@
 
-# Реакт галерея 
+# Реакт галерея   
 
-<img width="1881" alt="image" src="https://github.com/ScherbakovM/gallery-react/assets/109952823/fa2bd4ab-3c77-4c26-951c-3af8684d4db6">
+![image](https://github.com/ScherbakovM/gallery-react/assets/109952823/bce095ca-3d7b-4875-b1d8-e7ea483b4b7e)   
 
 
 ### фото храняться на [json-servere ](hhttps://www.npmjs.com/package/json-server) 
