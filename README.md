@@ -24,6 +24,10 @@ npm install -g json-server
 
 ### Чтобы одновременно запустить сервер и реакт приложение устанавливаем [concurrently](https://www.npmjs.com/package/concurrently)
 
+```
+npm install concurrently
+```
+
 ### После этого обновляем package.json, добавляем скрипт который объеденит запуск реакт приложения и json-servera
 
 ```
@@ -31,7 +35,7 @@ npm install -g json-server
 ```
 ![image](https://github.com/ScherbakovM/gallery-react/assets/109952823/3fd099fc-ab91-4729-af3f-dc0b31cc1fc6)
 
-для отправки get и post запросов понадобится [axios](https://axios-http.com/docs/api_intro)
+### для отправки get и post запросов понадобится [axios](https://axios-http.com/docs/api_intro)
 
 ```
 npm install axios
