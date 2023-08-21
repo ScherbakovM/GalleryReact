@@ -9,3 +9,11 @@
 ```
 npm install -g json-server
 ```
+
+В package.json добавляем скрипт для запуска сервера 
+
+```
+"server": "json-server -w server/db.json -p 4200"
+```
+
+Чтобы одновременно запустить сервер и реакт приложение устанавливаем [concurrently](https://www.npmjs.com/package/concurrently)
