@@ -6,6 +6,7 @@
 ### Принцип работы:
 ### Фото загружаются c [json-servera](https://www.npmjs.com/package/json-server?activeTab=readme) 
 ### Можно загрузить фото добавив ссылку на фото 
+### Так же можно добавить описание к фото.
 
 ![image](https://github.com/ScherbakovM/gallery-react/assets/109952823/bce095ca-3d7b-4875-b1d8-e7ea483b4b7e)   
 
