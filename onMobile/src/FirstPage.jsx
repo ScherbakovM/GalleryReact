@@ -7,17 +7,17 @@ export const FirstPage = () => {
 
     const [currentId, setCurrentId] = useState(0);
     const [animalsDb, setAnimalsDb] = useState([]);
+    const [photoUrl, setPhotoUrl] = useState('');
+
     useEffect(() => {
         axios
             .get(server)
             .then(data => {
                 setAnimalsDb(data.data)
             })
-    }, []);
+    }, [photoUrl]);
 
-    const [photoUrl, setPhotoUrl] = useState('');
-
-    const listItems = animalsDb.length ? animalsDb.map((animal) => (
+    let listItems = animalsDb.length ? animalsDb.map((animal) => (
         <div
             key={animal.id}
             className="container">
@@ -33,14 +33,14 @@ export const FirstPage = () => {
     }
 
     function appPic(nextId, photoUrl) {
-        axios.post("http://localhost:4200/animals/", {'id': nextId, 'url': photoUrl})
+        axios.post("http://localhost:4200/animals/", { 'id': nextId, 'url': photoUrl })
     }
 
     const btnFunc = () => {
         let lastItem = returnLastItem(animalsDb)
         let nextId = lastItem.id + 1
-        console.log(nextId)
         appPic(nextId, photoUrl);
+        setPhotoUrl('')
     }
 
     return (
