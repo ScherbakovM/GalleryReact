@@ -18,6 +18,10 @@
 npm create vite@latest
 ```
 
+### Устанавливаем зависимости
+```
+npm install 
+```
 ### для того чтобы  json-server заработал необходимо выполнить его установку   
 ```
 npm install -g json-server
