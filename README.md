@@ -1,12 +1,14 @@
 
-# Реакт галерея   
+# Реакт галерея  
+# Фото загружаются c [json-servera](https://www.npmjs.com/package/json-server?activeTab=readme) 
+# Можно загрузить фото добавив ссылку на фото 
 
 ![image](https://github.com/ScherbakovM/gallery-react/assets/109952823/bce095ca-3d7b-4875-b1d8-e7ea483b4b7e)   
 
-## При загрузке страницы фото загружаются c json-servera 
-## Так же можно загрузить фото добавив ссылку на фото
 
-## Создаём реакт приложение  в качестве сборщика используем [vite](https://vitejs.dev/guide/)
+
+## Создаём реакт приложение    
+# в качестве сборщика используем  [vite](https://vitejs.dev/guide/)
 ```
 npm create vite@latest
 ```
