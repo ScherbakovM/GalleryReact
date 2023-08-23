@@ -6,9 +6,8 @@
 Клиентское приложение React &#9883; + Сервер json-server &#9850;
 
 ### Принцип работы:
-### Фото загружаются c [json-servera](https://www.npmjs.com/package/json-server?activeTab=readme) 
-### Можно загрузить фото добавив ссылку на фото 
-### Так же можно добавить описание к фото.
+### Во время загрузки клиентского приложения фото сразу загружаются c [json-servera](https://www.npmjs.com/package/json-server?activeTab=readme) 
+### Можно загрузить фото и описание добавив их в поля  выполнится post запрос на добавление данных на сервер.
 
 ![image](https://github.com/ScherbakovM/gallery-react/assets/109952823/bce095ca-3d7b-4875-b1d8-e7ea483b4b7e)   
 
