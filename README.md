@@ -3,7 +3,7 @@
 
 Клиент серверное приложение с возможноcтью протестировать запросы на сервер. 
 
-Клиентское приложение React + Сервер json-server &#x1f64c;
+Клиентское приложение React &#9883; + Сервер json-server &#x1f64c;
 
 ### Принцип работы:
 ### Фото загружаются c [json-servera](https://www.npmjs.com/package/json-server?activeTab=readme) 
